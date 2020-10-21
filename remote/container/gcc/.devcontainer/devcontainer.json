@@ -13,7 +13,6 @@
   "containerUser": "developer",
 
   "runArgs": [
-    "--name=vsc-gcc-latest",
     "--hostname=gcc",
     "--cap-add=SYS_PTRACE",
     "--security-opt",
