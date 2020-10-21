@@ -1,8 +1,10 @@
 # vsc
-Microsoft Visual Studio Code Utilities
+Microsoft Visual Studio Code Utilities.
 
 ## remote
 ___
+
+Work with a sandboxed toolchain or container-based application inside (or mounted into) a container.
 
 ### container
 ___
@@ -17,7 +19,9 @@ Documentation:
 Usage:
 * make sure that `Docker` engine is running,
 * copy `.devcontainer` directory from specific example to your project root directory, e.g. `remote/container/gcc/.devcontainer`,
-* In Visual Studio Code run `Remote-Containers: Reopen in Container` or `Remote-Containers: Clone Repository in Container Volume...`.
+* open your project in Visual Studio Code and select one of the following from `Open a Remote Window` menu:
+  * `Remote-Containers: Reopen in Container` or
+  * `Remote-Containers: Clone Repository in Container Volume...`.
 
 #### gcc
 ___
