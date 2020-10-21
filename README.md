@@ -2,10 +2,17 @@
 Microsoft Visual Studio Code Utilities
 
 ## remote
+___
 
 ### container
+___
 
 Remote container configuration examples.
+
+Documentation:
+* [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers),
+* [Advanced Container Configuration](https://code.visualstudio.com/docs/remote/containers-advanced),
+* [devcontainer.json reference](https://code.visualstudio.com/docs/remote/devcontainerjson-reference).
 
 Usage:
 * make sure that `Docker` engine is running,
@@ -13,6 +20,7 @@ Usage:
 * In Visual Studio Code run `Remote-Containers: Reopen in Container` or `Remote-Containers: Clone Repository in Container Volume...`.
 
 #### gcc
+___
 
 Latest version of gcc docker image.
 
